@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+   max-width: 960px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 100px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    display: 100px;
+    margin-bottom: 8px;
+    background-color: white;
+    border: none;
+    padding: 8px;
+    border-bottom: 2px solid;
+    font-size: 24px;
+}
+
+form button {
+   font-size: 24px;
+   font-weight: bold;
+   border: none;
+   cursor: pointer;
+   padding: 8px;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
+ul li {
+    display: none;
+}
